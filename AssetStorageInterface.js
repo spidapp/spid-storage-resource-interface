@@ -5,9 +5,10 @@ var Interface = require('spid-interface');
 module.exports = Interface('AssetStorageInterface', {
   /**
    * [init description]
+   * @param  {Configuration} configuration
    * @param  {Function} f(err)
    */
-  init: function (f) {},
+  init: function (configuration, f) {},
 
   /**
    * [dispose description]
