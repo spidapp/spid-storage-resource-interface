@@ -2,7 +2,7 @@
 
 var Interface = require('spid-interface');
 
-module.exports = Interface('StorageInterface', {
+module.exports = Interface('AssetStorageInterface', {
   /**
    * [init description]
    * @param  {Function} f(err)

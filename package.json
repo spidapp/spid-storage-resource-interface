@@ -1,8 +1,8 @@
 {
-  "name": "spid-storage-interface",
+  "name": "spid-storage-asset-interface",
   "version": "0.0.1",
-  "description": "[Core] Spid Storage Interface",
-  "main": "StorageInterface.js",
+  "description": "[Core] Spid Storage Asset Interface",
+  "main": "AssetStorageInterface.js",
   "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com/)",
   "license": "MIT",
   "dependencies": {
