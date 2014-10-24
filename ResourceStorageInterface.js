@@ -2,7 +2,7 @@
 
 var Interface = require('spid-interface');
 
-module.exports = Interface('AssetStorageInterface', {
+module.exports = Interface('ResourceStorageInterface', {
   /**
    * [init description]
    * @param  {Configuration} configuration
