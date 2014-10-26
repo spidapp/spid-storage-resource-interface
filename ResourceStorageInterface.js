@@ -18,19 +18,20 @@ module.exports = Interface('ResourceStorageInterface', {
 
   /**
    * [read description]
-   * @param  {[type]} key  [description]
-   * @param  {[type]} value [description]
+   * @param  {[type]} url  [description]
+   * @param  {[type]} headers either {'content-encoding': 'gzip'} or {}
    * @param  {Function} f(err, value)
    * @return {[type]}       [description]
    */
-  read: function (key, f) {},
+  read: function (url, headers, f) {},
 
   /**
    * [write description]
-   * @param  {[type]} key  [description]
+   * @param  {[type]} url  [description]
+   * @param  {[type]} headers  either {'content-encoding': 'gzip'} or {}
    * @param  {[type]} value [description]
    * @param  {Function} f(err)
    * @return {[type]}       [description]
    */
-  write: function (key, value, f) {}
+  write: function (url, headers, value, f) {}
 });
