@@ -1,6 +1,6 @@
 {
   "name": "spid-storage-resource-interface",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "[Core] Spid Storage Resource Interface",
   "main": "ResourceStorageInterface.js",
   "contributors": [
